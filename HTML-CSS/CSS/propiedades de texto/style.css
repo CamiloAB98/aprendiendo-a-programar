@@ -1,0 +1,13 @@
+P{
+    color: red;
+
+    font-family: sans-serif, tahoma,arial; 
+    /* font-family: 'Lucida sans'; usamos las comillas para tipografia con nombre separado  */
+    /* Usamos la coma para agregar otra tipografía por si el navegador no carga la primera, se pueden poner las que quiera */
+
+    font-size: 13px;
+    /* Tamaño de fuente, por defecto es 16px */
+
+    font-weight: bold;
+    /* Grosor de la tipografía, "bold" negrilla, 100,200,300... es el grosor definido por el creador de la font-family, numero mas grande= mayor grosor dependiendo de la tipografia*/
+}

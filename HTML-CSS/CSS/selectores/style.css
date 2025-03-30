@@ -1,0 +1,15 @@
+/* Estilo por elemento*/
+li{
+    color: red;
+}
+
+/* Estilo por clase */
+.ingrediente-faltante {
+    color: blue;
+}
+
+/* Estilo por identificador UNICO: 
+NO poner mas de un alemento con el mismo identificador*/
+#ingrediente-secreto{
+    color: green;
+}
