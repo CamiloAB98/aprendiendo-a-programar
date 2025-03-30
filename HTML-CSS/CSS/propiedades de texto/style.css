@@ -1,13 +1,49 @@
 P{
     color: red;
 
-    font-family: sans-serif, tahoma,arial; 
+    font-family: montserrat, sans-serif,sans-serif, tahoma,arial; 
     /* font-family: 'Lucida sans'; usamos las comillas para tipografia con nombre separado  */
     /* Usamos la coma para agregar otra tipografía por si el navegador no carga la primera, se pueden poner las que quiera */
 
     font-size: 13px;
     /* Tamaño de fuente, por defecto es 16px */
 
-    font-weight: bold;
-    /* Grosor de la tipografía, "bold" negrilla, 100,200,300... es el grosor definido por el creador de la font-family, numero mas grande= mayor grosor dependiendo de la tipografia*/
+    font-weight: 900;
+    /* Grosor de la tipografía, "bold" negrilla = 700, "bolder" = siguiente escalon encima del tamaño predeterminado de la tipografia.
+
+    100,200,300... es el grosor definido por el creador de la font-family, numero mas grande= mayor grosor dependiendo de la tipografia*/
+
+    font-style: italic;
+    /* Italic, tipografia muy inclinada
+    oblique, tipografia inclinada. Podemos definir el grado de inclinación. Ejemplo, 40deg*/
+
+    text-align: center;
+    /* Alineación de texto, derecha, izquierda, centro, justificado 
+    
+    text-align: start
+    Se basa en la dirección del texto. Si el texto se lee de izquierda a derecha, start significa izquierda. Si se lee de derecha a izquierda, start significa derecha
+    
+    text-align: end
+    Se basa en la dirección del texto. Si el texto se lee de izquierda a derecha, end significa derecha. Si se lee de derecha a izquierda, end significa izquierda.*/
+
+    text-decoration: none;
+    /* Agrega o elimina decoraciones al texto (subrayado, tachado, etc.). */
+
+    line-height: 2;
+    /* Define la altura entre líneas del texto. (Espaciado)*/
+
+    letter-spacing: 2px;
+    /* Controla el espacio entre letras. */
+
+    text-transform: capitalize;
+    /* Cambia la capitalización del texto. Mayuscula (uppercase), minuscula (lowercase), Primera letra en mayuscula (capitalize) */
+}
+
+span{
+    text-decoration: line-through;
+}
+/* La etiqueta <span> es un contenedor en línea que se utiliza para marcar una parte de un texto o de un documento . Se puede modificar fácilmente con CSS o JavaScript mediante los atributos class o id. La etiqueta <span> es muy similar al elemento <div>, pero <div> es un elemento a nivel de bloque y <span> es un elemento en línea. */
+
+a{
+    text-decoration: none;
 }
