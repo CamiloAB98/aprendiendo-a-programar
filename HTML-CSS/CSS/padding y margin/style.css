@@ -1,0 +1,31 @@
+/* .formulario{
+    background-color: red;
+    /* padding: 10px 0 40px 20px;  Top 10px, Right 0, Bottom 40px, Left 20px
+    padding: 30px;
+} */
+
+/* .formulario_input{
+    padding: 6px 10px;
+    width: 90%;
+    background-color: black;
+    color: red; 
+    margin: 10px
+}
+
+.formulario_submit{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: red;
+    color: white;
+    width: 50%;
+} */
+ .box{
+    background-color: red;
+    height: 150px;
+    width: 150px;
+    margin: 30px
+ }
+ .box_grande{
+    margin: 60px;
+    /* El margen de separación será del valor más grande y no la suma de ambos*/
+ }
