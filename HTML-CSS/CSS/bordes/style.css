@@ -1,0 +1,36 @@
+.hola {
+    background-color: red;
+    width: 150px;
+    margin: auto;
+    text-align: center;
+}
+
+.hola {
+    /* border-width: 5px;
+    border-color: black;
+    border-style: solid; */
+    border: 3px solid black; /* aplicamos las 3 propiedades de arriba en una sola */
+
+    /* border-top: 5px solid blue;
+    border-bottom: 2px dashed yellow; 
+
+    Aplicamos propiedades de los bordes de arriba y de abajo, también se puede con los lados */
+
+    /* border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px; */
+    border-radius: 100px 100px 50px 50px; /* aplicamos las 4 propiedades de arriba en una sola */
+}
+
+input{
+    margin: 5px;
+    padding: 6px 9px;
+    border: none;
+    border-bottom: 1px solid greenyellow;
+    color: greenyellow;
+    background-color: transparent;
+}
+body{
+    background-color: black;
+}
