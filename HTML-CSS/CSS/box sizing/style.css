@@ -5,7 +5,7 @@ body{
 .box{
     width: 100px;
     height: 100px;
-    background-color: red;
+    background-color: #48e;
     margin: 10px;
 }
 .box-default{

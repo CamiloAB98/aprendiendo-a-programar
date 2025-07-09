@@ -1,0 +1,11 @@
+.box{
+    width: 100px;
+    height: 100px;
+    
+    /* background-color: rgb(255, 0, 0);
+    rojo pero en sitema rgb */
+
+    /* background-color: #00ff00;
+    sistema hexadecimal Se representan con un símbolo # seguido de seis dígitos hexadecimales (0-9 y A-F), que indican la intensidad de rojo, verde y azul (ej. #FF0000 es rojo).  */
+    margin: 20px;
+}
