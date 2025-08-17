@@ -3,7 +3,7 @@ b=4
 c=a+b
 
 #variable con camelCase
-nombreCompleto="Lucas"
+nombre="Lucas"
 
 #la recomendacion en python es snake
 nombre_completo="snake case"

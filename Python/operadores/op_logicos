@@ -1,0 +1,16 @@
+# Ejemplos de condicionales lógicos en Python
+
+# AND
+print(5 > 3 and 2 < 4)      # True and True => True
+print(10 == 10 and 3 > 7)   # True and False => False
+print(1 != 1 and 2 == 2)    # False and True => False
+
+# OR
+print(4 < 2 or 8 > 5)       # False or True => True
+print(7 == 7 or 6 < 3)      # True or False => True
+print(0 > 1 or 2 > 5)       # False or False => False
+
+# NOT
+print(not (3 == 3))         # not True => False
+print(not (5 < 2))          # not False => True
+print(not (7 != 7))         # not False => True
