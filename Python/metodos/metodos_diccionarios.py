@@ -11,7 +11,7 @@ diccionario = {
 
 keys = diccionario.keys() #Devuelve las claves del diccionario
 
-valor_clave = diccionario.get('nombre') #Devuelve el valor de la clave que le indiquemos, en este caso "Lucas dalto", si no existe devuelve None
+valor = diccionario.get('nombre') #Devuelve el valor de la clave que le indiquemos, en este caso "Lucas dalto", si no existe devuelve None
 
 #diccionario.clear() #Elimina todos los elementos del diccionario, dejándolo vacío
 
@@ -24,6 +24,6 @@ valores = diccionario.values() #Devuelve los valores del diccionario
 
 
 # print(keys)
-# print(valores)
+# print(valor)
 print("diccionario: ", diccionario)
 print("diccionario iterable: ", diccionario_iterable) #Muestra las claves y valores del diccionario
