@@ -8,7 +8,7 @@ const persona = {
 
 console.log('Objeto persona:', persona); // Muestra todo el objeto
 console.log('Nombre:', persona.nombre); // Acceso usando notación de punto
-console.log('Edad:', persona['edad']); // Acceso usando notación de corchetes
+console.log('Edad:', persona[edad]); // Acceso usando notación de corchetes
 
 // Recorrer las propiedades del objeto
 for (let clave in persona) {
